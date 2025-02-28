@@ -80,7 +80,7 @@ export function BeamsBackground({
         updateCanvasSize();
         window.addEventListener("resize", updateCanvasSize);
 
-        function resetBeam(beam: Beam, index: number, totalBeams: number) {
+        function resetBeam(beam: Beam, index: number) {
             if (!canvas) return beam;
             
             const column = index % 3;
