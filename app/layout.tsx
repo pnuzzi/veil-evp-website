@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Veil EVP | Digital Agency",
-  description: "Veil EVP is a leading digital agency specializing in web design and development, creating stunning digital experiences that captivate and convert.",
+  title: "Veil EVP | EVP Ghost Communicator",
+  description: "Unlock the secrets of the spirit world with Veil EVP, the ultimate tool for paranormal investigators and ghost hunters. This app uses advanced EVP (Electronic Voice Phenomenon) technology to detect and interpret mysterious sounds and energy fluctuations, helping you connect with spirits beyond the veil.",
 };
 
 export default function RootLayout({
