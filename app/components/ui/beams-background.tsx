@@ -146,7 +146,7 @@ export function BeamsBackground({
                 beam.pulse += beam.pulseSpeed;
 
                 if (beam.y + beam.length < -100) {
-                    resetBeam(beam, index, totalBeams);
+                    resetBeam(beam, index);
                 }
 
                 drawBeam(ctx, beam);
