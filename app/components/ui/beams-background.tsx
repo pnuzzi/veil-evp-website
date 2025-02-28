@@ -162,7 +162,7 @@ export function BeamsBackground({
                 cancelAnimationFrame(animationFrameRef.current);
             }
         };
-    }, [intensity]);
+    }, [intensity, opacityMap]);
 
     return (
         <div

@@ -99,7 +99,7 @@ const HomePage = () => {
               </motion.h3>
               <div className="h-1 w-24 bg-[#00ff00]"></div>
               <p className="text-zinc-400">
-              This app utilizes real-time fluctuations in electromagnetic fields (EMFs) and raw sensor readings from your device to generate words and sentences. By analyzing these subtle energy changes, the app provides an interactive experience Whether you're a paranormal enthusiast or just curious about the unknown, this tool offers a fun and intriguing way to explore EVP phenomena.
+              This app utilizes real-time fluctuations in electromagnetic fields (EMFs) and raw sensor readings from your device to generate words and sentences. By analyzing these subtle energy changes, the app provides an interactive experience Whether you&apos;re a paranormal enthusiast or just curious about the unknown, this tool offers a fun and intriguing way to explore EVP phenomena.
               </p>
               <ul className="list-disc list-inside text-zinc-400">
                 <li>
@@ -218,7 +218,7 @@ const HomePage = () => {
               </motion.h3>
               <div className="h-1 w-24 bg-[#00ff00]"></div>
               <p className="text-zinc-400">
-              This entertainment app captures words, sentences, and even lottery numbers by analyzing fluctuations in the electromagnetic field (EMF). The concept is based on the idea that spirits can influence these energy changes, potentially guiding the app's word and number generators to produce meaningful statements. Whether used for fun, curiosity, or paranormal exploration, this app offers an engaging and mysterious experience.
+              This entertainment app captures words, sentences, and even lottery numbers by analyzing fluctuations in the electromagnetic field (EMF). The concept is based on the idea that spirits can influence these energy changes, potentially guiding the app&apos;s word and number generators to produce meaningful statements. Whether used for fun, curiosity, or paranormal exploration, this app offers an engaging and mysterious experience.
               </p>
             </div>
             <div className="space-y-6">
@@ -378,7 +378,7 @@ const HomePage = () => {
                     <i className="fas fa-chevron-down transition-transform duration-200 ease-out data-[state=open]:rotate-180" />
                   </AccordionTrigger>
                   <AccordionContent className="pb-2 ps-7 text-muted-foreground">
-                    Sometimes the EMF Fluctuation doesn't work with the sensor. This happens most times when opening the app from the background. A quick fix is to adjust the sensitivity by sliding it back and forth then putting it at the setting you want.
+                    Sometimes the EMF Fluctuation doesn&apos;t work with the sensor. This happens most times when opening the app from the background. A quick fix is to adjust the sensitivity by sliding it back and forth then putting it at the setting you want.
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
