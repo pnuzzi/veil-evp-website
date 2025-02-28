@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
+import React from "react";
 
 interface AnimatedGradientBackgroundProps {
     className?: string;
@@ -49,11 +50,11 @@ export function BeamsBackground({
     const animationFrameRef = useRef<number>(0);
     const MINIMUM_BEAMS = 20;
 
-    const opacityMap = {
+    const opacityMap = React.useMemo(() => ({
         subtle: 0.7,
         medium: 0.85,
         strong: 1,
-    };
+    }), []);
 
     useEffect(() => {
         const canvas = canvasRef.current;
