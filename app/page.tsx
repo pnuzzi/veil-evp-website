@@ -116,7 +116,7 @@ const HomePage = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
-                className="relative h-[250px] sm:h-[300px] md:h-[400px] w-full"
+                className="relative h-[400px] w-full"
               >
                 <Image
                   src="/images/website-screen-images-words.png"
@@ -130,7 +130,7 @@ const HomePage = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.2 }}
-                className="relative h-[250px] sm:h-[300px] md:h-[400px] w-full"
+                className="relative h-[400px] w-full"
               >
                 <Image
                   src="/images/website-screen-images-sentences.png"
