@@ -378,7 +378,12 @@ const HomePage = () => {
                     <i className="fas fa-chevron-down transition-transform duration-200 ease-out data-[state=open]:rotate-180" />
                   </AccordionTrigger>
                   <AccordionContent className="pb-2 ps-7 text-muted-foreground">
+                    <p>
                     Sometimes the EMF Fluctuation doesn&apos;t work with the sensor. This happens most times when opening the app from the background. A quick fix is to adjust the sensitivity by sliding it back and forth then putting it at the setting you want.
+                    </p>
+                    <p>
+                    There is a bug that will stop the magnetometer from sensing and the EMF Fluctuation will be set to 0.00. To fix you need to shake your device to get the sensor to start working again. Weird fix, but it&apos;s what works.
+                    </p>
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
