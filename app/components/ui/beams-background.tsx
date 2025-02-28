@@ -140,7 +140,6 @@ export function BeamsBackground({
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             ctx.filter = "blur(35px)";
 
-            const totalBeams = beamsRef.current.length;
             beamsRef.current.forEach((beam, index) => {
                 beam.y -= beam.speed;
                 beam.pulse += beam.pulseSpeed;
