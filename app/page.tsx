@@ -394,7 +394,19 @@ const HomePage = () => {
 
       {/* Contact Section */}
       <section className="py-20 bg-black">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-4 text-center space-y-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="flex justify-center"
+          >
+            <a
+              href="/privacy-policy"
+              className="px-6 py-3 text-sm font-medium text-white bg-neutral-900 hover:bg-neutral-800 rounded-md border border-neutral-800 hover:border-[#00ff00] transition-colors"
+            >
+              Privacy Policy
+            </a>
+          </motion.div>
           <motion.a
             href="mailto:infinitelegacycompany@gmail.com"
             initial={{ opacity: 0 }}
