@@ -373,7 +373,7 @@ const HomePage = () => {
                         className="shrink-0 opacity-60 text-red-500"
                         aria-hidden="true"
                       />
-                      <span className="text-red-500">Known Bug</span>
+                      <span className="text-red-500">Known Bugs</span>
                     </span>
                     <i className="fas fa-chevron-down transition-transform duration-200 ease-out data-[state=open]:rotate-180" />
                   </AccordionTrigger>
