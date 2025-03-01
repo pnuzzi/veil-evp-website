@@ -74,7 +74,7 @@ const HomePage = () => {
               <h2 className="text-4xl font-bold">Get to know about Veil EVP</h2>
               <div className="h-1 w-24 bg-[#00ff00]"></div>
               <p className="text-zinc-400">
-              Unlock the secrets of the spirit world with Veil EVP, the ultimate tool for paranormal investigators and ghost hunters. This app uses advanced EVP (Electronic Voice Phenomenon) technology to detect and interpret mysterious sounds and energy fluctuations, helping you connect with spirits beyond the veil.
+              Unlock the secrets of the spirit world with Veil EVP, the ultimate tool for paranormal investigators, psychics, spiritualists, and ghost hunters. This app uses advanced EVP (Electronic Voice Phenomenon) technology to detect and interpret mysterious sounds and energy fluctuations, helping you connect with spirits beyond the veil.
               </p>
               <p className="text-zinc-400">
               Veil EVP measures changes in the electromagnetic field (EMF) using real sensors in your device. The changes in the EMFs around your device are used to select words, construct sentences, and select lottery numbers. This app uses real changes in EMFs and raw readings from your device only.
