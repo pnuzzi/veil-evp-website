@@ -363,7 +363,7 @@ const HomePage = () => {
                     </ul>
 
                     <p className="mt-4">
-                      There is a delete button at the top right of the History page that will prompt you to delete all recorded generations. It is recommended to take a screenshot of generated you want to save.
+                      There is a delete button at the top right of the History page that will prompt you to delete all recorded generations. It is recommended to take a screenshot of generated content you want to save.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
