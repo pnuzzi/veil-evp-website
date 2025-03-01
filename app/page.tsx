@@ -221,7 +221,7 @@ const HomePage = () => {
               This entertainment app captures words, sentences, and even lottery numbers by analyzing fluctuations in the electromagnetic field (EMF). The concept is based on the idea that spirits can influence these energy changes, potentially guiding the app&apos;s word and number generators to produce meaningful statements. Whether used for fun, curiosity, or paranormal exploration, this app offers an engaging and mysterious experience.
               </p>
 
-              <p className="mt-4">
+              <p className="mt-4 text-zinc-400">
               Disclaimer: EVP (Electronic Voice Phenomenon) recordings are intended for entertainment purposes only and should not be considered scientific evidence of paranormal activity. Results may vary, and interpretations are subjective. Use responsibly and have fun exploring the unknown!
               </p>
             </div>
