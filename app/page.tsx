@@ -38,6 +38,21 @@ const HomePage = () => {
           >
             EVP Ghost Communicator
           </motion.p>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.4 }}
+            className="relative w-[150px] h-[50px] mx-auto mt-4"
+          >
+            <a href="https://apps.apple.com/us/app/veil-evp/id6742527268" target="_blank" rel="noopener noreferrer">
+              <Image
+                src="/images/available-on-appstore.png"
+                alt="Available on App Store"
+                fill
+                className="object-contain"
+              />
+            </a>
+          </motion.div>
         </div>
       </BeamsBackground>
 
